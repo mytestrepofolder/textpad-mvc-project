@@ -31,7 +31,7 @@
 				</td>
 			</tr>
 		</table>
-		(NOTE: In Description, please enter sentences ending with a '.' to calculate text complexity correctly.)
+	    (NOTE: In Description field, please end sentences  with a '.' to calculate text complexity accurately.)
 	</div>
 	</form:form>
 <%@ include file="common/footer.jspf" %>
