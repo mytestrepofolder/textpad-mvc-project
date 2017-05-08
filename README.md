@@ -1,34 +1,35 @@
-Online TextPad App (Read ME)
+Online Text Pad App (Read ME)
 =====================================================================
 
 Tools Used:
-�	1. Java (1.8.0_91)
-�	2. Spring Tool Suite
-�	3. Maven
-�	4. Spring MVC
-�	5. HSQL Embedded DB
-�	6. Tomcat 7
-�	7. BootStrap
+•	Java (1.8.0_91)
+•	Spring Tool Suite
+•	Maven
+•	Spring MVC
+•	HSQL Embedded DB
+•	Tomcat 7
+•	BootStrap
 
 
 Solution Outline:.
-�	This is an online web app using which allows an user to add/edit text to a persistant store(HSQL). 
-�	User can enter a Text Title (Max 50 char) and Description (Max 500) for the text which is saved to the DB by cliking on Save button. This title and text limit can be increased by modifying the insert Basic form validation for "null" check is provided on this fields.
-�   This app also calculates diffictulty level of the Text entereted in the description field using fog index readability.
+o	This is an online web app using which allows an user to add/edit text to a persistent store(HSQL). 
+o	User can enter a Text Title (Max 50 char) and Description (Max 500) for the text which is saved to the DB by clicking on Save button. This title and text limit can be increased by modifying the insert Basic form validation for "null" check is provided on this fields.
+o	This app also calculates difficulty level of the Text entered  in the description field using fog index readability.
 
-Build and Run Instructions :
+Build and Run Instructions:
 
-Using Command Prompt :
-�	Download the contents from GitHub  (This already contains the executable WAR available)
-�	Extract the content into a directory on your machine. This should create a directory named 'textpad-mvc-project�`
-�	Execute following maven command to create an executable WAR `mvn clean install`. This command will create a WAR with name like  �TextPadDemo.war� in $root_dir/company-car-webservices/target directory
-�	Deploy this WAR in your TOMCAT. 
-�	The application can be accessed at the path : "http://localhost:8080/TextPadDemo/textpadlist"
+•	Using Command Prompt:
+o	Download the contents from GitHub.
+o	Extract the content into a directory on your machine. This should create a directory named 'textpad-mvc-project
+o	Execute following maven command to create an executable WAR `mvn clean install`. 
+o	This command will create a WAR with name like “TextPadDemo.war” in $root_dir/company-car-webservices/target directory
+o	Deploy this WAR in your TOMCAT. 
+o	The application can be accessed at the path : "http://localhost:8080/TextPadDemo/textpadlist"
 
 
 Build Using Eclipse :
 
-�	If you are building this app from Eclipse then follow these steps : 
+o	If you are building this app from Eclipse then follow these steps : 
 o	Install Maven plugin in your Eclipse if not there already.
 o	Import the project as an Existing Maven Project
 o	Build using Project -> Build Project
