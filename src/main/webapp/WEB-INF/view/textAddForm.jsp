@@ -24,11 +24,8 @@
 			<tr>
 				<td>
 						<button  type="submit" value="Save"  class="btn btn-info">Save</button>
-						
+						<a href="${pageContext.request.contextPath}/textpadlist" class="btn btn-info">Cancel</a>
 				</td>	
-				<td>
-						<a href="${pageContext.request.contextPath}/textpadlist" class="btn btn-info"> Cancel</a>
-				</td>
 			</tr>
 		</table>
 	    (NOTE: In Description field, please end sentences  with a '.' to calculate text complexity accurately.)

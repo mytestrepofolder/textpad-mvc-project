@@ -24,14 +24,11 @@
 			<tr>
 				<td>
 						<button  type="submit" value="Save"  class="btn btn-info">Save</button>
-						
-				</td>	
-				<td>
 						<a href="${pageContext.request.contextPath}/textpadlist" class="btn btn-info"> Cancel</a>
-				</td>
+				</td>	
 			</tr>
 		</table>
-		(In Description : Please end sentences  with a '.' to calculate text complexity accurately.)
+		(NOTE: In Description field, please end sentences  with a '.' to calculate text complexity accurately.)
 	</div>
 	</form:form>
 <%@ include file="common/footer.jspf" %>
