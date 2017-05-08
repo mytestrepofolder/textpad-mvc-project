@@ -15,8 +15,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 
-
-
 @ComponentScan({ "com.edia.mvc.textpad" })
 @Configuration
 public class DbConfig {
