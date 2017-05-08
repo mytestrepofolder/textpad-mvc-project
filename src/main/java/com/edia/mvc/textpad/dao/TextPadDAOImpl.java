@@ -81,11 +81,6 @@ public class TextPadDAOImpl implements TextPadDAO {
 		return result;
 	}
 
-	@Override
-	public boolean textExists(String textTitle) {
-		return false;
-	}
-
 	private static final class TextPadMapper implements RowMapper<TextPad> {
 
 		public TextPad mapRow(ResultSet rs, int rowNum) throws SQLException {
