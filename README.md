@@ -15,6 +15,7 @@ Solution Outline:.
 o	This is an online web app using which allows an user to add/edit text to a persistent store(HSQL). 
 o	User can enter a Text Title (Max 50 char) and Description (Max 500) for the text which is saved to the DB by clicking on Save button. This title and text limit can be increased by modifying the insert Basic form validation for "null" check is provided on this fields.
 o	This app also calculates difficulty level of the Text entered  in the description field using fog index readability.
+o	Added the option to detlete individual texts in the list.
 
 Build and Run Instructions:
 
