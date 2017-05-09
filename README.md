@@ -7,7 +7,7 @@ Tools Used:
 •	Maven
 •	Spring MVC
 •	HSQL Embedded DB
-•	Tomcat 7
+•	Tomcat 7.0.72
 •	BootStrap
 
 
