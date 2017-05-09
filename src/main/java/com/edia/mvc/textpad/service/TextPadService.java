@@ -14,5 +14,6 @@ public interface TextPadService {
     TextPad getTextById(int id);
     void addText(TextPad text);
     void updateText(TextPad text);
+    void deleteText(int id);
     int checkTextComplexity(TextPad text);
 }

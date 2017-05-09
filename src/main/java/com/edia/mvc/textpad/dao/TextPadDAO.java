@@ -14,4 +14,6 @@ public interface TextPadDAO {
     TextPad getTextById(int id);
     void addText(TextPad text);
     void updateText(TextPad text);
+    void deleteText(int id);
+    boolean textExists(String textTitle);
 }

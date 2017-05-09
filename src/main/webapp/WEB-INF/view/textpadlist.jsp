@@ -17,10 +17,11 @@
 				<tr>
 					<td><a href="${pageContext.request.contextPath}/textById?id=${obj.id}"><c:out value="${obj.textTilte}" /></a></td>
 					<td><c:out value="${obj.creationDate}" /></td>
+					<td><a href="${pageContext.request.contextPath}/deleteTextById?id=${obj.id}">Delete</a></td>
 				</tr>
 			</c:forEach>			
 			<tr>
-				<td colspan="2" class="success-msg"><c:out value="${msg}" /></td>
+				<td colspan="4" class="success-msg"><c:out value="${msg}" /></td>
 			</tr>
 			</tbody>
 		</table>

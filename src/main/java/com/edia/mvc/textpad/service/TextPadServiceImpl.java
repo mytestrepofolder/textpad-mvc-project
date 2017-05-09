@@ -75,4 +75,10 @@ public class TextPadServiceImpl implements TextPadService {
 		
 	}
 
+	@Override
+	public void deleteText(int id) {
+		// TODO Auto-generated method stub		
+		 dao.deleteText(id);
+	}
+
 }
