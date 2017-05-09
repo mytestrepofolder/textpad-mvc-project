@@ -41,7 +41,7 @@ public class TextPadDaoTest {
     	Assert.assertNotNull(test);
     	Assert.assertEquals(1, test.getId());
     	Assert.assertEquals("Text1", test.getTextTilte());
-    	Assert.assertEquals("This is text 1", test.getTextDesc());
+    	Assert.assertEquals("This is text 1.", test.getTextDesc());
     	Assert.assertEquals("2017-05-08T11:46:56.900+02:00", test.getCreationDate().toString());
     }
 
